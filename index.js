@@ -1,3 +1,4 @@
+import "./js/vendors/scroll-polyfill";
 import { ScrollObserver } from "./js/libs/intersectionobserver";
 
 export class Appear {
