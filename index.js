@@ -1,4 +1,3 @@
-import "./index.scss";
 import { ScrollObserver } from "./js/libs/intersectionobserver";
 
 export class Appear {
