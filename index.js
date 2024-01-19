@@ -28,8 +28,7 @@ export class Appear {
   }
 
   _scrollInit() {
-    this._observers.push(
-      new ScrollObserver(".appear", this._inviewAnimation),
-    );
+    this._observers.push(new ScrollObserver(".appear", this._inviewAnimation));
   }
 }
+new Appear();
