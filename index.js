@@ -1,7 +1,7 @@
 import "./stylesheets/index.scss";
 import { ScrollObserver } from "./js/libs/intersectionobserver";
 
-export class Main {
+export class Appear {
   constructor() {
     this._observers = [];
     this._init();
@@ -34,4 +34,4 @@ export class Main {
     );
   }
 }
-new Main();
+new Appear();
